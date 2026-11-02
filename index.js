@@ -29,7 +29,13 @@ mongoose.connect('mongodb+srv://mehedihasan:2aK6wB0LRf3Q415l@cluster0.2f7fiyr.mo
 
   function securyte(req,res,next){
 
-    console.log(req.Headhees);
+    if(req.Headhers.authorization = sdfkjgasegf){
+      next()
+    }else{
+      res.send('okk')
+      
+      
+    }
     
 
   }
